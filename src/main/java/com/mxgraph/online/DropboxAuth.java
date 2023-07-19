@@ -29,8 +29,8 @@ abstract public class DropboxAuth extends AbsAuth
 	}
 
 //	新增方法
-	public static String getClientIdFilePath() {
-		return CLIENT_ID_FILE_PATH;
+	public static void setClientIdFilePath(String clientIdFilePath) {
+		CLIENT_ID_FILE_PATH = clientIdFilePath;
 	}
 
 	public DropboxAuth()
